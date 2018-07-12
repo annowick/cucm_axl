@@ -16,11 +16,11 @@
     
 <h3>Examples</h3>
 <b>a = AxlConn(**CUCMRO)</b><br>
-CUCM address: \<CUCM IP Address or FQDN\><br>
-AXL Username: <axluser><br>
-Password for axluser: <axlpassword><br>
+CUCM address: <i>CUCM IP Address or FQDN</i><br>
+AXL Username: <i>axluser</i><br>
+Password for axluser: <i>axlpassword</i><br>
 
-<b>a.sql_query("select name from device where name like 'SEP%'")</b><br>
+<b>a.sql_query("SELECT name FROM device WHERE name LIKE 'SEP%'")</b><br>
 
 [{'name': SEP000011112222}, {'name': SEP000011112223}]
 
