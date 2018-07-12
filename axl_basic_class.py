@@ -8,7 +8,7 @@ from suds.xsd.doctor import Import
 from suds.xsd.doctor import ImportDoctor
 from serverlogging import logline
 
-VER = '9.0'
+VER = '10.5'
 WSDL_RELPATH = '/axltoolkit/schema/%s/AXLAPI.wsdl' % VER
 DUMPS_RELPATH = 'static' + os.path.sep + 'dumps'
 TNS = 'http://schemas.cisco.com/ast/soap/'
