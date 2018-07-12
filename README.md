@@ -23,12 +23,10 @@ Password for axl_user:<br><br>
 AXLConn(CUCM: 1.1.1.1, AXLUser: axl_user, RO)<br><br>
 
 <b>a.sql_query("SELECT name FROM device WHERE name LIKE 'SEP%'")</b><br>
-
 [{'name': SEP000011112222}, {'name': SEP000011112223}]<br>
 
 
 <b>a.axl_query("listDeviceProfile(searchCriteria={'name': '%'}, returnedTags={'name': ''})")</b><br>
-
 (<HTTPStatus.OK: 200>, (reply){<br>
     return =<br>
        (return){<br>
