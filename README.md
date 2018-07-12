@@ -1,8 +1,10 @@
 # cucm_axl
 
 <h3>Prerequisites</h3>
-- download axl toolkit from CUCM and unzip it into "axltoolkit" subdirectory. To change it, modify WSDL_RELPATH constant<br>
-- default version is 10.5, to change it modify VER constant<br>
+<ul>
+<li>Download axl toolkit from CUCM and unzip it into "axltoolkit" subdirectory. To change it, modify WSDL_RELPATH constant</li>
+<li>Default version is 10.5. To change it, modify VER constant</li>
+</ul>
 
 <h3>Keyword Arguments</h3>
 - server - IP or FQDN. Default: prompt<br>
@@ -26,14 +28,14 @@ Password for axluser: <axlpassword><br>
 (<HTTPStatus.OK: 200>, (reply){<br>
     return =<br>
        (return){<br>
-          deviceProfile[] =
-             (LDeviceProfile){
-                _uuid = "{2159B23D-D2C2-D7D8-8B4D-5970B6A5D0BB}"
-                name = "1001001"
-             },
-             (LDeviceProfile){
-                _uuid = "{3A0B93C3-6556-B3F1-4E57-0E6115189550}"
-                name = "1001002"
-             },
-       }
-  })
+          deviceProfile[] =<br>
+             (LDeviceProfile){<br>
+                _uuid = "{2159B23D-D2C2-D7D8-8B4D-5970B6A5D0BB}"<br>
+                name = "1001"<br>
+             },<br>
+             (LDeviceProfile){<br>
+                _uuid = "{3A0B93C3-6556-B3F1-4E57-0E6115189550}"<br>
+                name = "1002"<br>
+             },<br>
+       }<br>
+  })<br>
