@@ -16,7 +16,7 @@
 </ul>
     
 <h3>Examples</h3>
-<b>from axl_basic_class import AxlConn, CUCMRO</b><br>
+<b>from axl_basic_class import AxlConn, CUCMRO</b><br><br>
 
 <b>a = AxlConn(**CUCMRO)</b><br>
 CUCM address: 1.1.1.1<br>
