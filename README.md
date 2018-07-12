@@ -1,5 +1,5 @@
 # cucm_axl
-# CUCM AXL connection class based on suds
+# CUCM AXL connection class on suds
 
 <h3>Prerequisites</h3>
 <ul>
