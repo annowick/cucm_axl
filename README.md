@@ -18,10 +18,9 @@
 <b>a = AxlConn(**CUCMRO)</b><br>
 CUCM address: 1.1.1.1<br>
 AXL Username: axl_user<br>
-Password for axl_user:<br>
+Password for axl_user:<br><br>
 <b>print(a)</b><br>
-AXLConn(CUCM: 1.1.1.1, AXLUser: axl_user, RO)
-<br>
+AXLConn(CUCM: 1.1.1.1, AXLUser: axl_user, RO)<br><br>
 
 <b>a.sql_query("SELECT name FROM device WHERE name LIKE 'SEP%'")</b><br>
 
