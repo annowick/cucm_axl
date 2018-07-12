@@ -20,12 +20,12 @@ CUCM address: 1.1.1.1<br>
 AXL Username: axl_user<br>
 Password for axl_user:<br>
 <b>print(a)</b><br>
-AXLConn(CUCM: 10.148.163.12, AXLUser: axluser, RO)
-
+AXLConn(CUCM: 1.1.1.1, AXLUser: axl_user, RO)
+<br>
 
 <b>a.sql_query("SELECT name FROM device WHERE name LIKE 'SEP%'")</b><br>
 
-[{'name': SEP000011112222}, {'name': SEP000011112223}]
+[{'name': SEP000011112222}, {'name': SEP000011112223}]<br>
 
 
 <b>a.axl_query("listDeviceProfile(searchCriteria={'name': '%'}, returnedTags={'name': ''})")</b><br>
