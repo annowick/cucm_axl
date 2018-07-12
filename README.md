@@ -7,11 +7,13 @@
 </ul>
 
 <h3>Keyword Arguments</h3>
-- server - IP or FQDN. Default: prompt<br>
-- username - AXL user configured on CUCM. Default: prompt<br>
-- password - AXL password. Default: prompt<br>
-- readonly - if set, will only allow 'select' sql queries, as well as 'list' or 'get' axl queries. Default: True<br>
-
+<ul>
+<li><b>server</b>: IP or FQDN. Default: prompt</li>
+<li><b>username</b>: AXL user configured on CUCM. Default: prompt</li>
+<li><b>password</b>: AXL password. Default: prompt</li>
+<li><b>readonly</b>: if set, will only allow 'select' sql queries, as well as 'list' or 'get' axl queries. Default: True</li>
+</ul>
+    
 <h3>Examples</h3>
 <b>a = AxlConn(**CUCMRO)</b><br>
 CUCM address: <CUCM IP Address or FQDN><br>
